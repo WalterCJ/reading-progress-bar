@@ -4,7 +4,7 @@ import babel from 'rollup-plugin-babel';
 import pkg from './package.json';
 
 const input = 'src/index.js';
-const name = [pkg.name];
+const name = pkg.name;
 const external = Object.keys(pkg.peerDependencies || {});
 const esExternal = external.concat(Object.keys(pkg.dependencies || {}));
 const banner = `/*
