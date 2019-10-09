@@ -31,7 +31,7 @@ function readingProgressBar({
     windowScrollPixels = document.body.scrollTop || document.documentElement.scrollTop;
 
     windowScrollPercents = (windowScrollPixels / scrollHeight) * 100;
-    progressBar.style.width = `${windowScrollPercents} + %`;
+    progressBar.style.width = `${windowScrollPercents}%`;
   });
 }
 
