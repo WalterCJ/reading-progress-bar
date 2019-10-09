@@ -1,5 +1,5 @@
 {
-  "name": "reading-progress-bar",
+  "name": "@waltercj/reading-progress-bar",
   "description": "Show a bar with your reading progress as you scroll down.",
   "version": "0.1.0",
   "keywords": [
